@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 import mysql.connector
-import re
+import re 
 
 # DATABASE CONFIG
 DB_CONFIG = {
