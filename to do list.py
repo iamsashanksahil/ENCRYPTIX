@@ -98,6 +98,7 @@ if __name__ == "__main__":
 
 print("All task noted...!")'''
 
+#shows error, working on it
 import tkinter as tk
 from tkinter import ttk, messagebox
 import mysql.connector
