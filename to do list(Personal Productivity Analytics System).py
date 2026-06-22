@@ -152,7 +152,7 @@ class ProductivityApp:
         self.status_combo = ttk.Combobox(
             self.root,
             values=["Pending", "Completed"]
-        )
+        ) 
         self.status_combo.grid(row=1, column=3)
 
         tk.Label(self.root, text="Hours Spent").grid(row=2, column=0)
@@ -160,7 +160,7 @@ class ProductivityApp:
         self.hours_entry = tk.Entry(self.root)
         self.hours_entry.grid(row=2, column=1)
 
-        tk.Button(
+        tk.Button( 
             self.root,
             text="Add Task",
             command=self.add_task
@@ -178,7 +178,7 @@ class ProductivityApp:
             command=self.load_tasks
         ).grid(row=3, column=2)
 
-        tk.Button(
+        tk.Button( 
             self.root,
             text="Analytics",
             command=self.analytics
